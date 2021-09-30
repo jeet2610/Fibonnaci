@@ -5,7 +5,7 @@
 # function that returns
 # a complex number after
 # adding
-def addComplex( z, z3):
+def addComplex( z1, z2):
     return z1 + z2
  
 # Driver's code
