@@ -5,10 +5,10 @@ def Fibonacci(n):
     if n < 0:
         print("Incorrect input")
  
-    # Check if n is 1
+    # Check if n is 0
     # then it will return 0
     elif n == 0:
-        return 0;
+        return 0
  
     # Check if n is 1,2
     # it will return 1
@@ -16,7 +16,7 @@ def Fibonacci(n):
         return 1
  
     else:
-        return Fibonacci(n) + Fibonacci(n)
+        return Fibonacci(n-1) + Fibonacci(n-2)
  
 # Driver Program
 print(Fibonacci(9))
